@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url('bg-desktop.svg');
+    background-color: blueviolet;
+}
+
+.group {
+    width: 90%;
+    margin: auto;
+}
+.generalcontainer{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: auto; */
+}
+.section1{
+    /* margin-left:105px;
+    margin-top:44px; */
+    width: 50%;
+}
+.section2{
+    /* margin-left:30px; */
+    width: 40%;
+}
+body > div > div.generalcontainer > div.section2 > p {
+    color:white;
+
+}
+h1{
+    color:white;
+}
+a{
+    background-color: white;
+     color:hsl(257, 40%, 49%);
+    text-decoration: none;
+    padding:18px 56px;
+    border-radius: 50px;
+}
+a:hover{
+    background-color:hsl(300, 69%, 71%);
+    color:white;
+    transition: .2s ease;
+}
+.io2{
+    width:180px;
+    margin-top:20px;
+    /* margin-left:110px; */
+}
+.icon{
+    /* float: right; */
+     display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+     gap: 10px;
+     cursor: pointer;
+     padding: 0 0 20px 0px;
+}
+.fa-brands {
+    color:white;
+    /* margin:7px; */
+}
+.border:hover{
+    border-color:hsl(300, 69%, 71%) ;
+    color:hsl(300, 69%, 71%);
+}
+.fa-brands:hover{
+    color:hsl(300, 69%, 71%);
+}
+
+/* .icon:hover{
+    border-color: hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+} */
+
+.border {
+    width:40px;
+    padding:5px 10px;
+    border:2px solid white;
+    border-radius: 50%;
+    height: 40px;
+    /* margin:7px; */
+
+}
+@media (max-width:375px){
+    .body{
+         background-color: blue;
+    }
+    .generalcontainer{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .icon{
+         display:flex;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: center;
+         gap: 10px;
+         cursor: pointer;
+         padding: 0 0 20px 0px;
+    }
+}
