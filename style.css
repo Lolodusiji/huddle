@@ -29,16 +29,18 @@ body{
 }
 body > div > div.generalcontainer > div.section2 > p {
     color:white;
+    font-size: 14px;
 
 }
 h1{
     color:white;
+    font-size: 1.7em;
 }
 a{
     background-color: white;
      color:hsl(257, 40%, 49%);
     text-decoration: none;
-    padding:18px 56px;
+    padding:12px 45px;
     border-radius: 50px;
 }
 a:hover{
@@ -50,6 +52,9 @@ a:hover{
     width:180px;
     margin-top:20px;
     /* margin-left:110px; */
+}
+.i01{
+    width:100%;
 }
 .icon{
     /* float: right; */
@@ -87,23 +92,21 @@ a:hover{
     /* margin:7px; */
 
 }
-@media (max-width:375px){
-    .body{
-         background-color: blue;
-    }
+@media (max-width:827px){
     .generalcontainer{
-        display:flex;
-        align-items: center;
-        justify-content: space-between;
         flex-direction: column;
+        gap:3rem;
+    }
+    .section1{
+        width:100%;
+    }
+    .section2{
+        width:100%;
+        text-align: center;
     }
     .icon{
-         display:flex;
-        justify-content: flex-end;
         align-items: center;
-        text-align: center;
-         gap: 10px;
-         cursor: pointer;
-         padding: 0 0 20px 0px;
+        justify-content: center;
+        margin-top:50px;
     }
 }
